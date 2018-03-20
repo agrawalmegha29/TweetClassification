@@ -1,0 +1,20 @@
+extends layout
+
+block styles
+  // link(rel='stylesheet',href='/stylesheets/dashboard.css')
+
+block scripts
+  script(type='text/javascript' src='https://www.google.com/jsapi')
+  script(src='/javascripts/google_script.js')
+  script(src='/socket.io/socket.io.js')
+  script(src='/javascripts/client.socket.io.js')
+
+block content
+  div#div_love
+    ul.tweet_love
+
+  div#chart_div
+  
+  div#div_hate
+    ul.tweet_hate
+  

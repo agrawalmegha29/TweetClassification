@@ -1,0 +1,49 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #383838;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.tweet_love {
+ color: #D0D0D0;
+}
+
+.tweet_hate {
+ color: #D0D0D0;
+}
+
+.name_class {
+ color: #C80000;
+ font-size: 15px;
+}
+
+#div_love {
+ overflow: hidden;
+ display: inline-block;
+ height: 650px;
+ width: 400px;
+ margin-left: 10px;
+ margin-top: 50px;
+ float: left;
+ font-size: 12px;
+}
+
+#div_hate {
+ overflow: hidden;
+ display: inline-block;
+ height: 650px;
+ width: 400px;
+ margin-right: 10px;
+ margin-top: 50px;
+ float: right;
+ font-size: 12px;
+}
+
+#chart_div {
+ display: inline-block;
+ float: inherit;
+ width: 20px;
+} 
